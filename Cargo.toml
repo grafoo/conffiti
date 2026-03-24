@@ -1,5 +1,5 @@
 [package]
-name = "contribuffiti"
+name = "conffiti"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 chrono = "0.4.31"
 eframe = "0.25.0"
+git2 = "0.20.1"
+libc = "0.2.172"
+uuid = { version = "1.16.0", features = ["v4"] }
